@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Takakiri: Japanese Dojo Fruit Slicer — Official Website</title>
+    <meta name="description" content="Experience the master art of the blade in Takakiri. Slice fruits, dodge shurikens, and conquer the Dojo across Classic, Campaign, Arcade, Zen, and Ninja modes." />
+    <meta name="theme-color" content="#0d0d11" />
+
+    <!-- Open Graph / Meta -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Takakiri: Japanese Dojo Fruit Slicer" />
+    <meta property="og:description" content="Official website for Takakiri. Slice traditional fruits with Katana precision in a stylized Japanese Dojo." />
+
+    <!-- Google Fonts: Cinzel Decorative for Dojo title & Plus Jakarta Sans for UI -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              dojo: {
+                950: '#08080a',
+                900: '#0e0f14',
+                850: '#13151c',
+                800: '#1a1d26',
+                700: '#2a2e3d',
+              },
+              sakura: {
+                400: '#fca5a5',
+                500: '#f87171',
+                600: '#ef4444',
+              },
+              gold: {
+                400: '#fbd38d',
+                500: '#e6b422',
+                600: '#c59b1d',
+              },
+              crimson: {
+                500: '#dc2626',
+                600: '#b91c1c',
+                700: '#991b1b',
+              }
+            },
+            fontFamily: {
+              cinzel: ['Cinzel', 'serif'],
+              sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+
+    <!-- Import Map (Approved libraries only) -->
+      </head>
+  <body class="bg-dojo-950 text-slate-100 font-sans antialiased selection:bg-crimson-600 selection:text-white overflow-x-hidden min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="./index.tsx"></script>
+  <script type="module" src="/index.js"></script></body>
+</html>
