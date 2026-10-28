@@ -1,9 +1,9 @@
 import { GameModeInfo } from './types';
 
 export const DEFAULT_CONFIG = {
-  godaddyDomain: 'yourdomain.com',
+  godaddyDomain: 'websitestar.in',
   subdomain: 'takakiri',
-  supportEmail: 'support@yourdomain.com',
+  supportEmail: 'gauravthakare0612@gmail.com',
   developerName: 'Gaurav Thakare (Takakiri Studios)',
   githubRepoUrl: 'https://github.com/gthakare171/takakiri-game',
 };
